@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ImageView to Web View Project</string>
+    <string name="welcomeMSG">"As Salamu Alaikum form -'Abir Hasan' "</string>
+    <string name="FavoriteWork">Favorite Works:</string>
+    <string name="bookReading">Islamic Book Reading</string>
+    <string name="eating">Eating all types of Food</string>
+    <string name="others">Others</string>
+    <string name="gander">Gander:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="eat">Daily Eat: </string>
+    <string name="prayerInMosQe">Prayer in Mosque: </string>
+    <string name="drinkOrSmoke">Do you drink (soft drinks) or Smoke:  </string>
+    <string name="output">Your Inputed Data:  </string>
+    <string name="submitButton">Submit</string>
+    <string name="customToast">Submit Successfully !</string>
+
+
+</resources>

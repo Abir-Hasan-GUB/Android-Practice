@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textColor="#f0f"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/welcomeMSG"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#00f"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/FavoriteWork"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:text="@string/bookReading"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:buttonTint="#f00"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/eat"
+        android:layout_width="wrap_content"
+        android:text="@string/eating"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:buttonTint="#f00"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:text="@string/others"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:buttonTint="#f00"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#333"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/gander"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioButtonGroup"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="@string/male"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:buttonTint="#f00"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="@string/female"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:buttonTint="#f00"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#333"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/eat"
+        android:layout_height="wrap_content"/>
+
+    <RatingBar
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:rating="3"
+        android:numStars="5"
+        android:stepSize="1"
+        android:progressTint="#f00"
+        android:isIndicator="false"
+        style = "?android:attr/ratingBarStyleSmall"
+        android:progressBackgroundTint="#000"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#333"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/prayerInMosQe"
+        android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:layout_width="250dp"
+        android:max="10"
+        android:layout_marginLeft="50dp"
+        android:layout_height="20dp"/>
+
+
+        <Switch
+            android:textColor="#f33"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:switchPadding="10dp"
+            android:layout_width="wrap_content"
+            android:text="@string/drinkOrSmoke"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:background="#aaf"
+        android:textColor="#000"
+        android:text="@string/submitButton"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textColor="#00f"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/output"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/display"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="#f00"
+            android:textColor="#000"
+            android:layout_width="200dp"
+            android:layout_height="180dp"/>
+
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/display2"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:background="#0f0"
+            android:textColor="#000"
+            android:layout_width="200dp"
+            android:layout_height="180dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

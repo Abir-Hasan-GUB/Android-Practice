@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My CheckBox</string>
+    <string name="title">What do you want to buy ?</string>
+    <string name="milkText">Milk</string>
+    <string name="sugerText">Sugar</string>
+    <string name="waterTest">Water</string>
+    <string name="btnText">Show</string>
+    <string name="resultTextView">No Item ordered Yet !</string>
+</resources>
