@@ -3,34 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
-        android:id="@+id/dateText"
-        android:text="Current Date: "
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
         android:textColor="#000"
-        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"/>
 
     <Button
         android:layout_width="wrap_content"
-        android:id="@+id/pickButton"
-        android:text="Pick Date"
-        android:textColor="#000"
-        android:textStyle="bold"
+        android:text="Show Date Picker"
+        android:id="@+id/button"
         android:textSize="20sp"
-        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"/>
-
-    <DatePicker
-        android:id="@+id/datePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
 </LinearLayout>
