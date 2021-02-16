@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Alert Dialog</string>
+    <string name="alertTitle">Sure Exit Now ?</string>
+</resources>
